@@ -1,14 +1,15 @@
 %define		_modname	tidy
-%define		_status		beta
+%define		_status		stable
+
 Summary:	%{_modname} - Tidy HTML Repairing and Parsing
 Summary(pl):	%{_modname} - Czyszczenie, naprwa oraz parsowanie HTML
 Name:		php-pecl-%{_modname}
-Version:	0.7
+Version:	1.0
 Release:	0.1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	009a8d3f1220ab3453bb49d9985f0bd2
+# Source0-md5:	c06d8b719082065693b9ba5e65d5d285
 URL:		http://pecl.php.net/package/tidy/
 BuildRequires:	libtool
 BuildRequires:	php-devel
@@ -47,9 +48,10 @@ phpize
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{extensionsdir}
 
-install %{_modname}-%{version}/modules/%{_modname}.so $RPM_BUILD_ROOT%{extensionsdir}
+cd %{_modname}-%{version}
+%{__make} install \
+	INSTALL_ROOT=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
