@@ -2,7 +2,7 @@
 %define		_status		stable
 
 Summary:	%{_modname} - Tidy HTML Repairing and Parsing
-Summary(pl):	%{_modname} - Czyszczenie, naprwa oraz parsowanie HTML
+Summary(pl):	%{_modname} - Czyszczenie, naprawa oraz parsowanie HTML
 Name:		php-pecl-%{_modname}
 Version:	1.1
 Release:	0.1
