@@ -4,12 +4,12 @@
 Summary:	%{_modname} - Tidy HTML Repairing and Parsing
 Summary(pl):	%{_modname} - Czyszczenie, naprwa oraz parsowanie HTML
 Name:		php-pecl-%{_modname}
-Version:	1.0
+Version:	1.1
 Release:	0.1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	c06d8b719082065693b9ba5e65d5d285
+# Source0-md5:	ecb2d3c62e1d720265a65dfb7e00e081
 URL:		http://pecl.php.net/package/tidy/
 BuildRequires:	libtool
 BuildRequires:	php-devel
