@@ -27,7 +27,7 @@ allows you to not only clean and otherwise manipluate HTML documents,
 but also traverse the document tree using the Zend Engine 2 OO
 semantics.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 Tidy jest dowi±zaniem do narzêdzia "Tidy HTML clean and repair", które
@@ -35,7 +35,7 @@ pozwala nie tylko na czyszczenie oraz manipulacjê dokumentami HTML, ale
 tak¿e na przemierzanie przez strukturê dokumentu za pomoc± zorientowanej
 obiektowo semantyki silnika Zend Engine 2.
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
