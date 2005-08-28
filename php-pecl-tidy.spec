@@ -66,4 +66,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
+%doc %{_modname}-%{version}/{CREDITS,TODO,README}
 %attr(755,root,root) %{extensionsdir}/%{_modname}.so
