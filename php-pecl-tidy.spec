@@ -31,9 +31,9 @@ In PECL status of this package is: %{_status}.
 
 %description -l pl
 Tidy jest dowi±zaniem do narzêdzia "Tidy HTML clean and repair", które
-pozwala nie tylko na czyszczenie oraz manipulacjê dokumentami HTML, ale
-tak¿e na przemierzanie przez strukturê dokumentu za pomoc± zorientowanej
-obiektowo semantyki silnika Zend Engine 2.
+pozwala nie tylko na czyszczenie oraz manipulacjê dokumentami HTML,
+ale tak¿e na przemierzanie przez strukturê dokumentu za pomoc±
+zorientowanej obiektowo semantyki silnika Zend Engine 2.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
