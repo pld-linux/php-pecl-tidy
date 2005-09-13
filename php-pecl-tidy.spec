@@ -11,7 +11,6 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	ecb2d3c62e1d720265a65dfb7e00e081
 URL:		http://pecl.php.net/package/tidy/
-BuildRequires:	libtool
 BuildRequires:	php-devel
 BuildRequires:	tidy-devel
 Requires:	php-common
