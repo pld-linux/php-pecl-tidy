@@ -2,19 +2,18 @@
 %define		_status		stable
 %define		_sysconfdir	/etc/php
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
-
 Summary:	%{_modname} - Tidy HTML Repairing and Parsing
 Summary(pl):	%{_modname} - Czyszczenie, naprawa oraz parsowanie HTML
 Name:		php-pecl-%{_modname}
 Version:	1.1
-Release:	1
+Release:	2
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	ecb2d3c62e1d720265a65dfb7e00e081
 URL:		http://pecl.php.net/package/tidy/
 BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.238
+BuildRequires:	rpmbuild(macros) >= 1.254
 BuildRequires:	tidy-devel
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
